@@ -1,7 +1,9 @@
 const args = process.argv.slice(2);
 
-if (args[1] === undefined) {
-  console.log("Python fun");
+if (args[0] === undefined) {
+  console.log("c is undefined");
+} else if (args[1] === undefined{
+  console.log("HBTN");
 } else {
-  console.log("c is cool");
+  console.log("Python fun");
 }
